@@ -24,7 +24,7 @@ Add to your `claude_desktop_config.json`:
   "mcpServers": {
     "zerocode": {
       "command": "npx",
-      "args": ["-y", "zerocode-mcp-server"]
+      "args": ["-y", "github:MELLER-Web/zerocode-mcp-server"]
     }
   }
 }
@@ -38,7 +38,7 @@ Add to your MCP settings:
 {
   "zerocode": {
     "command": "npx",
-    "args": ["-y", "zerocode-mcp-server"]
+    "args": ["-y", "github:MELLER-Web/zerocode-mcp-server"]
   }
 }
 ```
@@ -46,7 +46,7 @@ Add to your MCP settings:
 ### Manual
 
 ```bash
-npx zerocode-mcp-server
+npx github:MELLER-Web/zerocode-mcp-server
 ```
 
 ## Available Tools
