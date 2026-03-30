@@ -1,0 +1,36 @@
+{
+  "name": "zerocode-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server for ZeroCode Ventures — AI solutions for Dutch SMBs. Get branch-specific advice, pricing, and savings calculations.",
+  "type": "module",
+  "bin": {
+    "zerocode-mcp": "./index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "ai",
+    "chatbot",
+    "whatsapp",
+    "dutch",
+    "smb",
+    "mkb",
+    "zerocode"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.23.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MELLER-Web/zerocode-mcp-server"
+  },
+  "license": "MIT",
+  "author": "ZeroCode Ventures <info@zerocodeventures.nl>"
+}
