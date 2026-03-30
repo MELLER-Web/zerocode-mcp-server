@@ -1,0 +1,9 @@
+name: zerocode-ventures
+description: "AI solutions advisor for Dutch SMBs — get branch-specific advice, pricing, and savings calculations from ZeroCode Ventures"
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties: {}
+  commandFunction: |-
+    (config) => ({ command: 'node', args: ['index.js'] })
